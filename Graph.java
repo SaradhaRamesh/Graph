@@ -1,12 +1,12 @@
 package Graph;
-class Graph{
-	class Edge{
-		int src,dest;
+public class Graph{
+	public class Edge{
+		public int src,dest;
 	}
-	int vertices,edges;
+	public int vertices,edges;
 	//array to store all edges
-	Edge[] edge;
-	Graph(int vertices,int edges){
+	public Edge[] edge;
+	public Graph(int vertices,int edges){
 		this.vertices=vertices;
 		this.edges=edges;
 		//initialize the edge array
